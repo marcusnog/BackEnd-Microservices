@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a6c9cf25-c39a-4283-a3b1-1d35c33cb08b": {
+      "ProjectGuid": "a6c9cf25-c39a-4283-a3b1-1d35c33cb08b",
+      "DisplayName": "MsBasketApi",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

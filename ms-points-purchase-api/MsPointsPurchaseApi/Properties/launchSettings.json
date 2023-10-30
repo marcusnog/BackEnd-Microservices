@@ -1,0 +1,40 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:40734",
+      "sslPort": 44393
+    }
+  },
+  "profiles": {
+    "MsPointsPurchaseApi": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7242;http://localhost:5226",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DatabaseSettings__ConnectionString": "mongodb+srv://authdbuser:4uthdbus3r!@cluster0.ij6uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "IDENTITYSERVER_URL": "https://localhost:7222/authapi",
+        "MS_POINTS_URL": "https://localhost:7213/api/AccountMoviment",
+        "PagarMeUrlPedido": "https://api.pagar.me/core/v5/orders",
+        "PagarMeUrlEstorno": "https://api.pagar.me/core/v5/charges",
+        "PagarMeSecretKey_Usuario": "sk_test_9EnxX2jfyjS2ALy7",
+        "PagarMeSecretKey_Senha": ""
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DatabaseSettings__ConnectionString": "mongodb+srv://authdbuser:4uthdbus3r!@cluster0.ij6uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "IDENTITYSERVER_URL": "https://localhost:7222/authapi",
+        "MS_POINTS_URL": "https://localhost:7213/api/AccountMoviment"
+      }
+    }
+  }
+}

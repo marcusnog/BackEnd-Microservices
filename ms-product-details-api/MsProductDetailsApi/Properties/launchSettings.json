@@ -1,0 +1,37 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49753",
+      "sslPort": 44374
+    }
+  },
+  "profiles": {
+    "MsProductDetailsApi": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7226;http://localhost:5226",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DatabaseSettings__ConnectionString": "mongodb+srv://authdbuser:4uthdbus3r!@cluster0.ij6uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "MS_ORDER_INTEGRATION_NETSHOES_URL": "https://localhost:7285/api/Order/CalcShipping",
+        "MS_ORDER_INTEGRATION_VIA_VAREJO_URL": "https://localhost:7140/api/Order/CalcShipping",
+        "IDENTITYSERVER_URL": "https://localhost:7222/authapi"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DatabaseSettings__ConnectionString": "mongodb+srv://authdbuser:4uthdbus3r!@cluster0.ij6uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "IDENTITYSERVER_URL": "https://localhost:7222/authapi"
+      }
+    }
+  }
+}

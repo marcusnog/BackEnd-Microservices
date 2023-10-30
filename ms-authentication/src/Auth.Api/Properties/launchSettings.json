@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:51026",
+      "sslPort": 44359
+    }
+  },
+  "profiles": {
+    "Auth.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DatabaseSettings__ConnectionString": "mongodb+srv://authdbuser:4uthdbus3r!@cluster0.ij6uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "GET_USERINFO_URL": "http://localhost:11453/api/User/GetUserInfo",
+        "GET_PARTICIPANTINFO_URL": "http://localhost:11453/api/UserParticipant/GetUserInfo",
+        "IDENTITYSERVER_URL": "https://localhost:7222/authapi",
+        "MS_AUTHENTICATION_SECRET": "@SenhaForte01",
+        "MS_CAMPAIGN_CONNECTOR_URL": "https://localhost:7291/Login"
+      },
+      "applicationUrl": "https://localhost:7222;http://localhost:5016",
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "GET_USERINFO_URL": "http://localhost:11453/api/User/GetUserInfo"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}

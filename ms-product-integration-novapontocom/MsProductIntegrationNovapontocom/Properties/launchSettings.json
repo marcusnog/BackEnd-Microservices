@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "MsProductIntegrationNovapontocom": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AZURE_QUEUE_CONNECTION": "Endpoint=sb://hml-reconhece.servicebus.windows.net/;SharedAccessKeyName=product-producer;SharedAccessKey=VWbJs/PBl7zlThgSOm5Zq5JertiTxW0JA1RgVhr3bzg=;EntityPath=products",
+        "AZURE_QUEUE": "products",
+        "INTEGRATION_TYPE": "FULL"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "AZURE_QUEUE_CONNECTION": "Endpoint=sb://hml-reconhece.servicebus.windows.net/;SharedAccessKeyName=product-producer;SharedAccessKey=VWbJs/PBl7zlThgSOm5Zq5JertiTxW0JA1RgVhr3bzg=;EntityPath=products",
+        "AZURE_QUEUE": "products",
+        "INTEGRATION_TYPE": "FULL"
+      }
+    }
+  }
+}

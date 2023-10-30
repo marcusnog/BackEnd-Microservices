@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:11453",
+      "sslPort": 44316
+    }
+  },
+  "profiles": {
+    "User.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DatabaseSettings__ConnectionString": "mongodb+srv://authdbuser:4uthdbus3r!@cluster0.ij6uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        //"COMMUNICATION_API": "http://34.132.220.49/communication/api/Email/template/{0}/{1}", //http://34.132.220.49
+        "COMMUNICATION_API": "https://localhost:7050/api/Email/template/{0}/{1}", //http://34.132.220.49
+        "SMTP_ID": "20212201ce231aa7cc205095",
+        "COMMUNICATION_TEMPLATE_ID": "000000000000000000000001",
+        "IDENTITYSERVER_URL": "https://localhost:7222/authapi",
+        "MS_PLATFORM_CONFIGURATION_URL": "https://localhost:7236/api/Client",
+        "MS_POINTS_URL": "https://localhost:7213/api"
+      },
+      "applicationUrl": "http://localhost:11453;",
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DatabaseSettings__ConnectionString": "mongodb+srv://authdbuser:4uthdbus3r!@cluster0.ij6uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        //"COMMUNICATION_API": "http://34.132.220.49/communication",
+        "COMMUNICATION_API": "https://localhost:7050/",
+        "SMTP_ID": "20212201ce231aa7cc205095",
+        "MS_PLATFORM_CONFIGURATION_URL": "https://localhost:7236/api/Client",
+        "MS_POINTS_URL": "https://localhost:7213/api"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}

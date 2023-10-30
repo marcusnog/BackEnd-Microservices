@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WS Sistemas\\Digi\\DevOps\\Reconhece_2.0\\ms-basket-api\\MsBasketApi\\MsBasketApi.csproj": {}
+  },
+  "projects": {
+    "D:\\WS Sistemas\\Digi\\DevOps\\Reconhece_2.0\\ms-basket-api\\MsBasketApi\\MsBasketApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WS Sistemas\\Digi\\DevOps\\Reconhece_2.0\\ms-basket-api\\MsBasketApi\\MsBasketApi.csproj",
+        "projectName": "MsBasketApi",
+        "projectPath": "D:\\WS Sistemas\\Digi\\DevOps\\Reconhece_2.0\\ms-basket-api\\MsBasketApi\\MsBasketApi.csproj",
+        "packagesPath": "C:\\Users\\wagner.santos\\.nuget\\packages\\",
+        "outputPath": "D:\\WS Sistemas\\Digi\\DevOps\\Reconhece_2.0\\ms-basket-api\\MsBasketApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wagner.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/digidevs/1c19ed26-f31d-428b-89e9-541db3d12dab/_packaging/Reconhece/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Ms.Api.Utilities": {
+              "target": "Package",
+              "version": "[1.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

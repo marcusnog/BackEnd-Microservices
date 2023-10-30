@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MsProductIntegration": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DatabaseSettings__ConnectionString": "mongodb+srv://authdbuser:4uthdbus3r!@cluster0.ij6uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "KEDA_SERVICEBUS_QUEUE_NAME": "products",
+        "KEDA_SERVICEBUS_QUEUE_CONNECTIONSTRING": "Endpoint=sb://hml-reconhece.servicebus.windows.net/;SharedAccessKeyName=product-consumer;SharedAccessKey=djdr//0pdJEtVcs+6PDaCZ4NWMSo4Yw8CLJqUIIeXWE=;EntityPath=products"
+      }
+    }
+  }
+}

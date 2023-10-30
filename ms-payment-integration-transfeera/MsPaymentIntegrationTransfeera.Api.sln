@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsPaymentIntegrationTransfeera.Api", "MsPaymentIntegrationTransfeera.Api\MsPaymentIntegrationTransfeera.Api.csproj", "{6F917C1F-B062-469F-A1FB-9BAFC70A4A2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsPaymentIntegrationTransfeera.Tests", "MsPaymentIntegrationTransfeera.Tests\MsPaymentIntegrationTransfeera.Tests.csproj", "{47BEB7F1-2F1A-464F-AA54-ABB474097D1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F917C1F-B062-469F-A1FB-9BAFC70A4A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F917C1F-B062-469F-A1FB-9BAFC70A4A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F917C1F-B062-469F-A1FB-9BAFC70A4A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F917C1F-B062-469F-A1FB-9BAFC70A4A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47BEB7F1-2F1A-464F-AA54-ABB474097D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BEB7F1-2F1A-464F-AA54-ABB474097D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BEB7F1-2F1A-464F-AA54-ABB474097D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BEB7F1-2F1A-464F-AA54-ABB474097D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6521E8D9-C4E3-46FD-AD79-FE208E813CE3}
+	EndGlobalSection
+EndGlobal
